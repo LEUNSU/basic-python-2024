@@ -14,4 +14,3 @@ for x in range(2, 9+1): # 2부터 9까지 반복
     for y in range(1, 9+1): # 1부터 9까지 반복
         print (f'{x} x {y} = {x*y:2d}', end = '  ' ) # end= 엔터 대신 공백으로 변경
     print() # 안쪽 for문이 끝나면 마지막 엔터를 하나 추가
-
