@@ -89,17 +89,18 @@
     - 텍스트 파일 입출력
 
     ```python
-    f = open('파일명', mode= 'r/w/a', encoding= 'cp949/utf-8')
+    f = open('파일명', mode= 'r|w|a', encoding= 'cp949|utf-8')
     f.read()
     f.readline() # 읽기
     f.write('text') # 쓰기
     f.close() # 파일은 반드시 닫는다
     ```
-    
+
 - 파이썬 활용
-    -주피터 노트북
-
-
+    - 주피터 노트북
+        - Ctrl + Shift + P (명령팔레트)로 시작
+        - 사용방법 (test31_jupyternb.ipynb 참조)
+    - folium 기본사용
 
 
     - 가상환경
