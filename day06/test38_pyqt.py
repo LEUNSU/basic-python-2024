@@ -25,6 +25,7 @@ class qtwin_exam(QWidget):
         self.lblStatus.setText('상태 : 동작중지')
         QMessageBox.about(self, '동작', '***시스템이 종료되었습니다')
 
+    # 부모의 closeEvent는 그냥 닫히기때문에 여기서 재정의해서 구현함
     def closeEvent(self, QCloseEvent) -> None: # X버튼 종료 확인
             re = QMessageBox.question(self, '종료 확인', '종료하시겠습니까?', QMessageBox.Yes|QMessageBox.No)
             if re == QMessageBox.Yes: # 닫기
